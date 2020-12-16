@@ -1,3 +1,14 @@
+  
+.vertical-align {
+    position: absolute;
+    top: 150px;
+}
+
+.picture-size {
+    width: 200px;
+    height: 200px;
+}
+
 .container {
     width: 600px;
 }

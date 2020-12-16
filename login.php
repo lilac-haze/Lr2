@@ -22,7 +22,7 @@ session_start();
  
  <input type="reset" class="btn" value="Clear">
     <p class="register">
-        you don`t have account? - <a href="/Lr2.2/registration.php">Click here</a> 
+        you don`t have account? - <a href="/Lab2/registration.php">Click here</a> 
     </p>
    
 </form>
@@ -33,7 +33,7 @@ session_start();
 
         if (isset($_GET["submit"])) {
             echo 'adfa';
-            header('Location: index.php');
+            header('Location: main.php');
             exit;
         }
     ?>
